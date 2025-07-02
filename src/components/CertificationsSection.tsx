@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const CertificationsSection = () => {
@@ -9,7 +8,7 @@ export const CertificationsSection = () => {
       badge: '🏆',
       description: 'Advanced ML on AWS, model deployment, and optimization',
       color: 'neon-blue',
-      link: 'https://www.credly.com/badges/your-aws-ml-badge'
+      link: 'https://www.credly.com/badges/3d312e31-680b-4814-80c4-759967da51d9/public_url'
     },
     {
       title: 'AWS Data Engineer Associate',
@@ -17,7 +16,7 @@ export const CertificationsSection = () => {
       badge: '📊',
       description: 'Data pipeline design, ETL processes, and data analytics',
       color: 'neon-purple',
-      link: 'https://www.credly.com/badges/your-aws-data-engineer-badge'
+      link: 'https://www.credly.com/badges/171c4e95-dd0c-473f-9caf-3a101d802e12/public_url'
     },
     {
       title: 'Azure Administrator Associate',
@@ -25,7 +24,7 @@ export const CertificationsSection = () => {
       badge: '☁️',
       description: 'Cloud infrastructure management and deployment',
       color: 'neon-pink',
-      link: 'https://www.credly.com/badges/your-azure-admin-badge'
+      link: 'https://learn.microsoft.com/api/credentials/share/en-gb/AkashDevulapally-7310/1F050D606C18FD?sharingId'
     },
     {
       title: 'Azure Data Engineer Associate',
@@ -33,7 +32,7 @@ export const CertificationsSection = () => {
       badge: '🔧',
       description: 'Data engineering solutions on Azure platform',
       color: 'neon-green',
-      link: 'https://www.credly.com/badges/your-azure-data-engineer-badge'
+      link: 'https://learn.microsoft.com/api/credentials/share/en-gb/AkashDevulapally-7310/D26B5B6E5FAABA2D?sharingId'
     },
     {
       title: 'IBM Certified Data Scientist',
@@ -41,7 +40,7 @@ export const CertificationsSection = () => {
       badge: '🧠',
       description: 'Data science methodologies and machine learning',
       color: 'neon-blue',
-      link: 'https://www.credly.com/badges/your-ibm-data-scientist-badge'
+      link: 'https://www.coursera.org/account/accomplishments/professional-cert/certificate/G4Z7ERP5VARZ'
     },
     {
       title: 'IBM AI Developer',
@@ -49,7 +48,7 @@ export const CertificationsSection = () => {
       badge: '🤖',
       description: 'AI application development and deployment',
       color: 'neon-purple',
-      link: 'https://www.credly.com/badges/your-ibm-ai-developer-badge'
+      link: 'https://www.coursera.org/account/accomplishments/professional-cert/LMRJU369BU5Q'
     }
   ];
 
