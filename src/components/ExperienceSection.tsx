@@ -1,11 +1,10 @@
-
 import React from 'react';
 
 export const ExperienceSection = () => {
   const experiences = [
     {
       company: 'UnitedHealth Group',
-      role: 'Senior Data Scientist',
+      role: 'AI Engineer',
       duration: 'Nov 2024 – Present',
       location: 'Remote',
       description: 'Leading AI initiatives in healthcare analytics, developing predictive models for patient outcomes, and implementing GenAI solutions for clinical decision support.',
@@ -14,16 +13,16 @@ export const ExperienceSection = () => {
     },
     {
       company: 'Assurant',
-      role: 'Data Scientist',
+      role: 'AI Engineer- Applied AI & Data Infrastructure',
       duration: 'Aug 2022 – Jul 2024',
-      location: 'Atlanta, GA',
+      location: 'Plano, Texas',
       description: 'Built ML models for risk assessment and fraud detection, implemented real-time analytics pipelines, and deployed AI solutions serving millions of customers.',
       technologies: ['PyTorch', 'Azure', 'Databricks', 'Kafka', 'Docker'],
       color: 'neon-purple'
     },
     {
       company: 'Microsoft India',
-      role: 'Software Engineer',
+      role: 'AI Software Engineer',
       duration: 'Jul 2019 – Jul 2021',
       location: 'Hyderabad, India',
       description: 'Developed cloud-native applications, worked on Azure ML services, and contributed to large-scale distributed systems serving global customers.',
@@ -32,7 +31,7 @@ export const ExperienceSection = () => {
     },
     {
       company: 'IIT Guwahati',
-      role: 'Research Intern',
+      role: 'Data Scientist- AI/ML',
       duration: 'May 2018 – Jun 2019',
       location: 'Guwahati, India',
       description: 'Conducted research in machine learning algorithms, published papers on deep learning applications, and developed novel approaches to computer vision problems.',

@@ -12,14 +12,6 @@ export const EducationSection = () => {
       color: 'neon-blue'
     },
     {
-      degree: 'Master of Computer Engineering',
-      school: 'University of North Texas',
-      duration: '2021 – 2023',
-      location: 'Texas, USA',
-      description: 'Specialized in Distributed Systems and Cloud Computing',
-      color: 'neon-purple'
-    },
-    {
       degree: 'Bachelor of Electronics & Communication',
       school: 'GITAM University',
       duration: '2016 – 2020',
@@ -42,11 +34,11 @@ export const EducationSection = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
             {education.map((edu, index) => (
               <div
                 key={index}
-                className="card-glass p-8 rounded-2xl card-hover text-center"
+                className="card-glass p-8 rounded-2xl card-hover text-center max-w-md mx-auto"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 <div className={`w-16 h-16 mx-auto mb-6 bg-gradient-to-r from-${edu.color} to-white/20 rounded-2xl flex items-center justify-center`}>
